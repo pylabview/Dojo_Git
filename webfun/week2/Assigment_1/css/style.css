@@ -1,0 +1,23 @@
+h1 {
+    background-color: black;
+    text-align: left;
+    font-family: sans-serif;
+    color: white;
+}
+
+h2 {
+    background-color: rebeccapurple;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    color: white;
+    font-weight: lighter;
+}
+
+h3 {
+    background-color: lightskyblue;
+    text-align: right;
+    font-family: sans-serif;
+    text-decoration: underline;
+    /* font-weight: lighter; */
+}
