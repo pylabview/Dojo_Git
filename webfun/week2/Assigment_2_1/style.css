@@ -1,0 +1,31 @@
+.btn-account, .btn-add, .btn-search{
+    height: 40px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.btn-search{
+    border-radius: 20px;
+    width: 100px;
+    color: #7dc8c8;
+    border: 2px solid #7dc8c8;
+    background: #fff;
+
+}
+
+.btn-add{
+    width: 40px;
+    border-radius: 50%;
+    color: #fff;
+    background: #7dc8c8;
+    border: none;
+}
+
+.btn-account{
+    width: 120px;
+    color: #fff;
+    background: #2b78e4;
+    border: 2px solid #000;
+    box-shadow: 3px 3px #000;
+
+}

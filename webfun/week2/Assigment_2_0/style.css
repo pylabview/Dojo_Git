@@ -1,0 +1,43 @@
+#search {
+    border: 3px solid mediumaquamarine;
+    font-family: sans-serif;
+    color: mediumaquamarine;
+    background: whitesmoke; 
+    font-size: 12pt;
+    height: 20px;
+    width: 95px;
+    text-align: center;
+    border-radius: 15px;
+    /* margin: 20px 0; */
+    padding: 5px;
+}
+
+#plus{
+    background: mediumaquamarine;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    height: 22px;
+    width: 22px;
+    padding: 4px 10px 10px 10px;
+    border-radius: 50%;
+    
+}
+
+#create_account{
+    background: royalblue;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    height: 10px;
+    width: 150px;
+    padding: 11px;
+    border: 2px solid black;
+    box-shadow: 8px 15px;
+}
+
+#search, #plus, #create_account{
+    margin: 15px;
+}
