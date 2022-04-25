@@ -1,0 +1,39 @@
+
+* {
+    font-family: sans-serif;
+}
+.container {
+    width: 800px;
+    margin: 0px auto; /* Center all 0 top and botthom, and calculates left and right*/
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+img.octocat {
+    height: 200px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.blue {
+    background-color: cyan;
+
+}
+
+.pink {
+    background-color: lightpink;
+    justify-content: space-evenly;
+}
