@@ -1,0 +1,64 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* styles to apply to body */
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    font-size: 14pt;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #1493a6;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.body-card {
+    padding: 20px;
+}
+
+.body-card h1, 
+.body-card h2,
+.body-card h3,
+.body-card p {
+    margin: 20px 0px;
+}
+
+.user-icon {
+    border-radius: 55%;
+    background-color: white;
+    height: 200px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.location-icon, .gear-icon {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
