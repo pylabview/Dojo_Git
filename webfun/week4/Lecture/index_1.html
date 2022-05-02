@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week4 - Lecture</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Adding the defer  is going to run the js script after the html is fully loaded-->
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="blue"></div>
+    <div id = "remover" class="green" onmouseover="removeMe()">
+        <h1>hello java-script developers </h1>
+    </div>
+    <!-- Let's add to the div red another event to add back the 
+    green div -->
+    <div class="red" onmouseover="bringBack()"></div>
+    <!-- <div class="red" onmouseover="bringBack_log()"></div> -->
+    <div class="green"></div>
+</body>
+</html>
