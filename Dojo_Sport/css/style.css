@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #c1c1c1;
+}
+
+.header-nav {
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+}
+
+#dsnn{
+    background-color: red;
+    font-style: italic;
+    padding: 20px;
+    margin-left: -100px;
+}
+
+.nav {
+    width: 1080px;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    margin-right: 330px;
+    font-size: 16pt;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.header-scores {
+    background-color: white;
+    display: flex;
+    /* justify-content:center; */
+}
+
+.scoret{
+    font-size:30px;
+    font-weight: bold;
+    padding: 10px;
+    list-style-type: none;
+}
+
+
+.score-game {
+    width: 100%;
+    margin-left: 150px;
+    font-size: 12pt;
+
+}
+
+
+.flex-container {
+    display: flex;
+    background-color: #c1c1c1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 35px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+
+.card-header {
+    padding: 20px;
+    background-color: #222;
+    color: #f3f3f3;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+
+.user-card .card-header {
+    height: 85px;
+    margin-bottom: 70px;
+    display: block;
+}
+
+
+
+.card-list {
+    padding: 0 20px;
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+.card-list-item, 
+.card-list-item > * {
+    display: flex;
+    align-items: center;
+}
+
+.card-list-item {
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+
+
+/* xxx */
+
+.flex-container.main {
+    align-items: flex-start;
+}
+
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.col-2 {
+    flex: 1;
+    /* margin-right: 20px; */
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.col-1 {
+    flex: 2;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+
+
+.stories{
+
+    list-style-type: none;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+
+}
+
+.news {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card-top-stories {
+    padding: 15px;
+}
+
+.header-stories {
+    font-size: 24pt;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+.btn {
+    height: 50px;
+    width: 80px;
+    color: #fff;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #2b78e4;
+}
+
+.up {
+    background-color: white;
+    color: #000;
+    margin-left: 10px;
+}
+
+.suscribe {
+    height: 50px;
+    width: 200px;
+    color: #000;
+    background-color: #ffd966;
+
+}
+
+.broadcast-msg {
+    border-top: 2px solid #000;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+#live{
+    font-size:24pt;
+    font-weight: bold;
+    color: red;
+    list-style-position: inside;
+}
+
+#ninja-green{
+    color:#119b9d;
+}
+
+#pirates-red{
+    color: #d20f34;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+.icon {
+    object-fit: contain;
+}
